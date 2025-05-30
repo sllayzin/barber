@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #f8f8f8;
+  line-height: 1.6;
+}
+
+/* TOPO */
+.topo {
+  background-color: #1a1a1a;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 3px solid #d4af37;
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo i {
+  color: #d4af37;
+  font-size: 2.5rem;
+}
+
+/* BOTÃO */
+.btn-agendar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #d4af37;
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-agendar:hover {
+  background-color: #b89b2b;
+}
+
+/* BANNER */
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 2px solid #d4af37;
+}
+
+/* SEÇÕES GERAIS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* SERVIÇOS */
+.servicos {
+  background-color: #1e1e1e;
+}
+
+.servicos h2 {
+  color: #d4af37;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.servicos table {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.servicos th,
+.servicos td {
+  padding: 14px;
+  border: 1px solid #333;
+}
+
+.servicos th {
+  background-color: #333;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+/* SOBRE */
+.sobre {
+  background-color: #141414;
+}
+
+.sobre h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+/* DEPOIMENTOS */
+.depoimentos {
+  background-color: #1e1e1e;
+}
+
+.depoimento {
+  margin-bottom: 30px;
+  font-style: italic;
+  color: #ccc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.depoimento span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+/* MAPA */
+.mapa h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #0d0d0d;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+footer i {
+  color: #d4af37;
+  margin-right: 8px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .btn-agendar {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .servicos table {
+    width: 100%;
+  }
+}
